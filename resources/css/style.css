@@ -1,0 +1,71 @@
+body{
+overflow-x: hidden;
+margin: 0;
+background:linear-gradient(rgba(33, 37, 41, 0), rgba(33, 37, 41, 0));
+}
+
+.home {
+    background-image: linear-gradient(rgba(33, 37, 41, 0.559), rgba(33, 37, 41, 0.559)), url(/public/media/bg_body.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    padding-top: 10rem;
+    z-index: -1;
+}
+.sellBg {
+    background-image: linear-gradient(rgba(33, 37, 41, 0.559), rgbrgba(33, 37, 41, 0.559)), url(/public/media/sfondoSell.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    padding-top: 10rem;
+    z-index: 0;
+}
+.tradeBg {
+    background-image: linear-gradient(rgba(33, 37, 41, 0.559), rgba(33, 37, 41, 0.559)), url(/public/media/sfondoTrade.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    padding-top: 10rem;
+    z-index: 0;
+}
+
+.title_bg{
+    background: linear-gradient(180deg, rgba(33,37,41,0.9585084033613446) 0%, rgba(255,255,255,0) 20%);
+    width: 100vw;
+}
+
+
+.opacity{
+    opacity: 0.5;
+}
+
+
+
+/* CARD STYLE */
+.button_position{
+    bottom: 50px;
+    left: 50px;
+}
+
+.btn-custom{
+    margin-left: -30px ;
+    margin-right: 180px ;
+}
